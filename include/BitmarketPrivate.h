@@ -63,7 +63,7 @@ public:
 		@param _market - market where the trade must be made (for example, "BTCEUR")
 		@param _type - order type: buy ("bid" or "buy") or sell ("ask" or "sell")
 		@param _amount - order amount (in cryptocurrency)
-		@param _rate - exchange rate
+		@param _rate - exchange rate 
 		@param _allOrNothing - flag to specify whether the order should be fulfilled completely or not.
 								- "1" - The order must be fulfilled completely and the entire amount 
 										should be traded. If it is not possible, it results in error.
