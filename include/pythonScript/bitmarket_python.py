@@ -4,7 +4,7 @@ import sys
 import http.client
 
 if len(sys.argv) != 2 and len(sys.argv) != 4:
-	sys.exit()
+	sys.exit(1)
 
 httpClient = http.client.HTTPSConnection("www.bitmarket.pl")
 outputFile = open("python_json_output", "w")
